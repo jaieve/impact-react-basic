@@ -11,11 +11,7 @@ class PhoneForm extends Component {
         })
     }
     handleSubmit = (e) => {
-        e.preventDefault(); // 원래해야하는 작업을 막아준다.
-        // this.props.onCreate({
-        //     name : this.state.name,
-        //     phone : this.state.phone
-        // })
+        e.preventDefault();
         this.props.onCreate(this.state);
         this.setState({
             name: '',
