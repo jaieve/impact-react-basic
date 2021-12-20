@@ -12,6 +12,7 @@ class PhoneInfo extends Component {
             <div style={style}>
                 <div><b>{name}</b></div>
                 <div><b>{phone}</b></div>
+                <div><b>{id}</b></div>
             </div>
         );
     }
