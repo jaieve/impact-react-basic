@@ -17,7 +17,26 @@ class PhoneInfo extends Component {
 
     // editing값을 반전시키는 함수 true <-> false
     handleToggleEdit = () => {
+        const { id, name, phone } = this.props.info;
+        const {onUpdate} = this.props;
         const { editing} = this.state;
+        if (!editing) {
+            this.setState({
+                editing: true,
+                name: name,
+                phone: phone
+            })
+        } else {
+            onUpdate(id, {
+                name: this.state.name,
+                phone : this.state.phone
+            });
+            this.setState({
+                editing: false
+            })
+        }
+
+
         this.setState( {editing: !editing})
     }
 
@@ -27,28 +46,6 @@ class PhoneInfo extends Component {
         this.setState({
             [name]  :value
         });
-    }
-
-    componentDidUpdate(prevProps, prevState, snapshot) {
-        // 여기서는 editing값이 바뀔 때 처리할 로직이 적힌다.
-        // 수정을 눌렸을 땐, 기존 값이 input에 나타나고,
-        // 수정을 적용할 땐, input의 값들을 부모한테 전달해준다.
-        const { info, onUpdate } = this.props;
-        if (!prevState.editing && this.state.editing) {
-            //editing값이 false -> true로 전환될 때 info의 값을 state에 넣어준다.
-            this.setState({
-                name : info.name,
-                phone: info.phone
-            })
-        }
-
-        if (prevState.editing && !this.state.editing) {
-            // editing값이 true -> falsse로 전환될 때
-            onUpdate(info.id, {
-                name : this.state.name,
-                phone: this.state.phone
-            });
-        }
     }
 
     render() {
