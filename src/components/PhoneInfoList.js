@@ -3,7 +3,8 @@ import PhoneInfo from "./PhoneInfo";
 
 class PhoneInfoList extends Component {
     static defaultProps = { //defaultProps를 정의할 때는 static을 적어주어야 한다.
-        data: []
+        list: [],
+        onRemove : () => console.warn('onRemove not defined'),
     }
 
     render() {
@@ -14,7 +15,7 @@ class PhoneInfoList extends Component {
                 <PhoneInfo
                     onRemove={onRemove}
                     info={info}
-                    key = {this.id}
+                    key = {info.id}
                 />
             )
         )
