@@ -1,7 +1,7 @@
 # 리액트스터디/입문
 
 ## 스터디 강의
-- 누구든지 하는 리액트:초심자를 위한 react 핵심 강좌
+- [누구든지 하는 리액트:초심자를 위한 react 핵심 강좌](https://www.inflearn.com/course/react-velopert/dashboard)
 - 총 22강, 총 2시간 53분
 ### 강의 커리큘럼
 1. 리액트는 무엇인가
