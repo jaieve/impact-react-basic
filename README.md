@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# 리액트스터디/입문
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 스터디 강의
+- 누구든지 하는 리액트:초심자를 위한 react 핵심 강좌
+- 총 22강, 총 2시간 53분
+### 강의 커리큘럼
+1. 리액트는 무엇인가
+2. 리액트 프로젝트 시작하기
+3. JSX
+4. props와 state - [정리링크](https://jaieve.notion.site/Props-State-fbbbcf5e54e74a5e81b8972d93b04144)
+5. LifeCycle API - [정리링크](https://jaieve.notion.site/LifeCycle-API-cc0970b063b14a439992c3de83bc55bc)
+6. 리액트 작업환경 직접 설정하기
+7. 인풋 상태관리
+8. 배열 데이터 렌더링 및 관리
+9. 최적화, 활용, Ref
 
-## Available Scripts
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 느낀 점
+- 가장 중요한 개념인 State, Props에 대해 알 수 있었고, React를 사용한 프로젝트의 장점을 직접 느껴볼 수 있어서 추후 React를 사용한 클론코딩 및 토이프로젝트 진행해보고싶은 마음이 생겼음.
+- 리액트의 LifeCycle과 default API에 대해 보다 detail하게 설명해주셔서 나중에 원하는 방식으로 리액트가 동작하길 바랄 때 어떤 API를 사용하면되는지 힌트를 얻을 수 있는 개념에 대해 배울 수 있어서 유익했음.
